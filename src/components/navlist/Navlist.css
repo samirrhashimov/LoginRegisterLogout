@@ -1,0 +1,55 @@
+.navlist {
+	background: #000000;
+	color: #ffffff;
+	padding: 0.5rem 1rem;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.navlist ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	margin: 0;
+	padding: 0;
+}
+
+.navlist li {
+	display: inline-flex;
+	align-items: center;
+}
+
+.navlist a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0.35rem 0.5rem;
+	border-radius: 4px;
+	transition: background-color 0.15s ease;
+}
+
+.navlist a:hover {
+	background: rgba(255, 255, 255, 0.12);
+}
+
+.navlist .username {
+	margin-left: auto;
+	font-weight: 600;
+	padding: 0.25rem 0.5rem;
+}
+
+.navlist .logout-btn {
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	color: #fff;
+	padding: 0.25rem 0.6rem;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-left: 0.5rem;
+}
+
+.navlist .logout-btn:hover {
+	background: rgba(255, 255, 255, 0.12);
+}
+
+
+
